@@ -1,0 +1,20 @@
+body {background-color: #FBF8F1;}
+        hr{
+            border-style: none;
+            border-top-style: dotted;
+            border-color: #E9DAC1;
+            border-width: 5px;
+            width: 10%;
+            }
+        img{
+            height: 300px;
+        }
+        h1{color: #54BAB9;}
+        h3{color: #54BAB9}
+        p{color: #876445;}
+        a{color: #CA955C;}
+        table{color: #876445;}
+        ul{color: #876445;}
+        ol{color: #876445;}
+        form{color: #876445;}
+        h4{color: #876445;}
