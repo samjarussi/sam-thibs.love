@@ -50,3 +50,7 @@ form {
 h4 {
     color: #876445;
 }
+
+td {
+    padding: 10px;
+}
