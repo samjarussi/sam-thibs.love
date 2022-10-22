@@ -1,0 +1,109 @@
+body {
+    background-color: #FBF8F1;
+    margin: 0px;
+}
+
+hr {
+    border-style: dotted none none;
+    border-top-style: dotted none none;
+    border-color: #E9DAC1;
+    border-width: 5px;
+    width: 10%;
+}
+
+img {
+    height: 300px;
+}
+
+h1 {
+    color: #54BAB9;
+    font-size: 50px;
+    margin-top: 0;
+}
+
+h3 {
+    color: #876445
+}
+
+p {
+    color: #876445;
+    font-size: large;
+}
+
+a {
+    color: #CA955C;
+    text-decoration: none;
+}
+
+table {
+    color: #876445;
+}
+
+ul {
+    color: #876445;
+}
+
+ol {
+    color: #876445;
+}
+
+form {
+    color: #876445;
+}
+
+h4 {
+    color: #876445;
+}
+
+td {
+    padding: 10px;
+}
+
+.circular {
+    border-radius: 100%;
+}
+
+.header {
+    font-size: large;
+    margin-left: 30px;
+    color: #876445;
+
+}
+
+.title {
+    background-color: #F7ECDE;
+    margin-top: 0px;
+    height: 180px;
+    width: 100%;
+    margin-left: 0px;
+    position: fixed;
+    z-index: 1000;
+    padding: 20px;
+}
+
+.title > h1 {
+    margin-left: 20px;
+    padding-top: 5px;
+}
+
+.main-body {
+    margin-left: 20px;
+    position: absolute;
+    top: 200px;
+}
+
+.body {
+    margin-left: 20px;
+    position: absolute;
+    top: 20px;
+}
+
+#mini-header {
+    margin-left: 20px;
+    font-size: medium;
+}
+
+#title {
+    margin-top: 0px;
+    margin-left: 0px;
+}
