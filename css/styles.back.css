@@ -71,6 +71,10 @@ td {
 .circular {
     border-radius: 100%;
 }
+.circular-test {
+    float: left;
+    margin-right: 30px;
+}
 
 .header {
     font-size: large;
