@@ -26,10 +26,14 @@ h3 {
 }
 
 .top-container {
-    background-color: #E4EFE7;
+    background-color: #eaf6f6;
     position: relative;
     padding-top: 100px;
     height: 100%;
+}
+
+.middle-container {
+    color:#40514E;
 }
 
 .bottom-cloud {
