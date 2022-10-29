@@ -25,6 +25,19 @@ h3 {
     color: #11999E;
 }
 
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: lightgrey;
+    border-width: 5px;
+    width: 5%;
+}
+
+a {
+    text-decoration: none;
+    color: #11999E;
+}
+
 .top-container {
     background-color: #eaf6f6;
     position: relative;
@@ -47,6 +60,19 @@ h3 {
     right: 300px;
     top: 50px;
 }
+
+.button {
+    background-color: #11999E;
+    border: none;
+    color: lightgray;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 30px;
+    font-family: 'Montserrat', sans-serif;
+  }
 
 .subtitle {
     text-align: center;
@@ -71,12 +97,4 @@ h3 {
 
 .couple-pic-small {
     width: 25%;
-}
-
-hr {
-    border-style: none;
-    border-top-style: dotted;
-    border-color: lightgrey;
-    border-width: 5px;
-    width: 5%;
 }
