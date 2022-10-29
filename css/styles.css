@@ -33,7 +33,7 @@ h3 {
 }
 
 .middle-container {
-    color:#40514E;
+    color: #40514E;
 }
 
 .bottom-cloud {
@@ -71,4 +71,12 @@ h3 {
 
 .couple-pic-small {
     width: 25%;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: lightgrey;
+    border-width: 5px;
+    width: 5%;
 }
