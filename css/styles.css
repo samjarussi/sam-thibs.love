@@ -1,4 +1,5 @@
 body {
+    color: #40514E;
     margin: 0;
     text-align: center;
     font-family: Merriweather, serif;
@@ -18,6 +19,7 @@ h2 {
     font-size: 2.5em;
     color: #66BFBF;
     font-weight: normal;
+    padding-bottom: 10px ;
 }
 
 h3 {
@@ -29,13 +31,23 @@ hr {
     border-style: none;
     border-top-style: dotted;
     border-color: lightgrey;
-    border-width: 5px;
-    width: 5%;
+    border-width: 6px;
+    width: 4%;
+    margin: 100px auto;
 }
 
 a {
     text-decoration: none;
     color: #11999E;
+}
+
+p {
+    line-height: 2;
+}
+
+.contact-me {
+    width: 40%;
+    margin: 40px auto 60px;
 }
 
 .top-container {
@@ -47,6 +59,7 @@ a {
 
 .middle-container {
     color: #40514E;
+    margin: 100px 0;
 }
 
 .bottom-cloud {
@@ -58,7 +71,7 @@ a {
 .top-cloud {
     position: absolute;
     right: 300px;
-    top: 50px;
+    top: 40px;
 }
 
 .button {
@@ -74,6 +87,16 @@ a {
     font-family: 'Montserrat', sans-serif;
   }
 
+  .button:hover {
+    background: #66BFBF;
+    background-image: -webkit-linear-gradient(top, #66BFBF, #66BFBF);
+    background-image: -moz-linear-gradient(top, #66BFBF, #66BFBF);
+    background-image: -ms-linear-gradient(top, #66BFBF, #66BFBF);
+    background-image: -o-linear-gradient(top, #66BFBF, #66BFBF);
+    background-image: linear-gradient(to bottom, #66BFBF, #66BFBF);
+    text-decoration: none;
+  }
+
 .subtitle {
     text-align: center;
     font-family: 'Caveat', cursive;
@@ -86,7 +109,7 @@ a {
 
 .profile {
     width: 50%;
-    margin: 100px auto 100px auto;
+    margin: auto;
     line-height: 2;
 }
 
