@@ -39,10 +39,23 @@ hr {
 a {
     text-decoration: none;
     color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a:hover {
+    color: white;
 }
 
 p {
     line-height: 2;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.copyright {
+    font-family: 'Montserrat', sans-serif;
+    color: lightgray;
+    font-size: 0.75rem;
+    padding: 20px 0;
 }
 
 .contact-me {
@@ -60,6 +73,11 @@ p {
 .middle-container {
     color: #40514E;
     margin: 100px 0;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
 }
 
 .bottom-cloud {
@@ -120,4 +138,8 @@ p {
 
 .couple-pic-small {
     width: 25%;
+}
+
+.footer-link {
+    color: lightgray;
 }
