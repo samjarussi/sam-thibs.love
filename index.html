@@ -2,77 +2,52 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>Sam & Thibs</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="pictures/favicon.ico">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script> -->
+    <!-- Google Fonts  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Caveat&family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&family=Shadows+Into+Light&family=Shadows+Into+Light+Two&family=Solitreo&display=swap" rel="stylesheet">
+    <!-- My Style -->
+    <link rel="stylesheet" href="css/stylessdt.css">
 </head>
 
 <body>
-    <div class="top-container">
-        <img class="top-cloud" src="pictures/cloud.png" alt="cloud">
-        <h1>Sam & Thibs</h1>
-        <h2 class="subtitle">Welcome to our wedding day!</h2>
-        <img class="bottom-cloud" src="pictures/cloud.png" alt="cloud">
-        <img src="pictures/mountain.png" alt="mountain">
-    </div>
-    <div class="middle-container">
-        <div class="profile">
-            <img class="couple-pic" src="pictures/picmodified.png" alt="couple's picture"></img>
-            <h2>Welcome to our Wedding page!</h2>
-            <p> Bonjour, nous c'est Samanta et Thibault !<br><br>
-                Sam vient de São Paulo et Thibs vient de Bannalec dans le Finistère, mais c'est bien à Nice que le
-                mariage entre le Brésil et la Bretagne s'est produit :)<br>
-                <br>Tchau, Kenavo,<br>
-                Samanta et Thibault
-            </p>
-        </div>
-        <hr>
-        <div class="details">
-            <h2>When?</h2>
-            <div class="skill-row">
-                <img class="couple-pic-small" src="pictures/picmodified.png" alt="couple's picture"></img>
-                <h3>Lorem & Ipsum</h3>
-                <p>Le mariage aura lieu en Juillet 2023.</p>
+    <div class="paperOverlay"></div>
+    <main class="container">
+        <div class="row flex-column-reverse flex-lg-row justify-content-center">
+            <div class="col-lg-9 col-sm-12 align-content-center">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12 text-center">
+                        <h1 class="display-1 mt-5">Samanta & Thibault</h1>
+                    </div>
+                </div>
+                <div class="row justify-content-end justify-content-lg-center mt-4 mb-lg-5">
+                    <div class="col-lg-6">
+                        <img src="pictures/calendar.png" class="calendar img-fluid" alt="calendar">
+                    </div>
+                </div>
+                <div class="row align-content-center mt-5">
+                    <div class="col-sm-12 col-lg-12 text-center mt-lg-5">
+                        <p class="display-6">📍 <a href="https://goo.gl/maps/ebpH94odcpuN7hhy7" target="_blank">Concarneau</a>, Bretagne, France</p>
+                    </div>
+                    <div class="col-sm-12 justify-content-center d-lg-none">
+                        <img src="pictures/hotel_blur.jpg" class="img-fluid d-block mx-auto">
+                    </div>
+                </div>
             </div>
-            <div class="skill-row">
-                <img class="" src="" alt="">
-                <h3>Agenda</h3>
-                <p><a href="cocktail.html">Cocktail</a> on Friday</p>
-                <p>Wedding on Saturday</p>
-                <p>Brunch on Sunday</p>
+            <div class="col-lg-3 col-sm-12 justify-content-center">
+                <img src="pictures/save our date.png" class="img-fluid d-block mx-auto" style="height: 100vh;">
             </div>
         </div>
-        <hr>
-        <div class="contact-me">
-            <h2>Get in Touch</h2>
-            <h3>Lorem ipsum dolor sit amet, non elit.</h3>
-            <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
-            <br>
-            <a class="btn" href="mailto:wedding@sam-thibs.love/">Click here to send us an email or</a><br>
-            <br>
-            <form>
-                <button class="button" formaction="contact.html">Contact us & Send us ❤️</button>
-            </form>
-            <br>
-        </div>
-    </div>
-
-
-    <div class="bottom-container">
-        <br>
-        <a class="footer-link" href="https://sam-thibs.love/">Website</a>
-        <p class="copyright">© Samanta Jarussi</p>
-    </div>
+    </main>
 </body>
 
 </html>
