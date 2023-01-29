@@ -22,12 +22,11 @@ h1 {
 }
 
 a {
-    text-decoration: none;
-    color: black;
+    color: #E8D2A6;
 }
 
 a:hover {
-    color: #E8D2A6;
+    color: #F2CD5C;
 }
 
 p {
