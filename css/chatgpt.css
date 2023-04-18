@@ -41,3 +41,13 @@ p {
     color: #E8D2A6;
   }
   
+  .title {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 3rem;
+    color: #B7B7B7;
+  }
+
+  .instructions {
+    font-size: 1.5rem;
+    font-family: Raleway;
+  }
