@@ -21,6 +21,12 @@ h1 {
     color: #E8D2A6;
 }
 
+h2 {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 1.5rem;
+  color: #B7B7B7;
+}
+
 a {
     color: #E8D2A6;
 }
